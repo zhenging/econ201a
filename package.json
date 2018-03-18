@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "note-x-build --config config.json",
-    "debug": "node --inspect-brk $(npm bin)/note-x-build --config config.json"
+    "build": "course-x-build",
+    "build": "course-x-deploy",
+    "debug": "node --inspect-brk $(npm bin)/course-x-build"
   },
-  "author": "",
+  "author": "zhenging",
   "license": "ISC"
 }
